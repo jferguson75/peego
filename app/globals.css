@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-peego-dark: #005c6a;
+  --color-peego-light: #e6f0f2;
+  --color-peego-accent: #008b9e;
+  --color-peego-gray: #f9fafb;
+  --color-peego-text: #374151;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-peego-text);
+}
+
+.hero-pattern {
+  background-color: #f9fafb;
+  background-image: radial-gradient(#e6f0f2 2px, transparent 2px);
+  background-size: 30px 30px;
+}
